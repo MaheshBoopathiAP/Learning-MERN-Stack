@@ -1,5 +1,9 @@
-const people = require('./people');
-const xyz = require('./people');
+const {people,ages} = require('./people');
+// const xyz = require('./people');
 
-console.log(xyz.people);
-console.log(xyz.ages);
+console.log(people,ages);
+// console.log(xyz.ages);
+
+const os = require('os');
+console.log(os.platform(),os.homedir());
+
